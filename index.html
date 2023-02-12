@@ -1,26 +1,13 @@
 <!DOCTYPE html>
-<html>
-  <head>
+<html lang="en">
+<head>
     <meta charset="UTF-8">
-    <title>Display PDF from local storage</title>
-  </head>
-  <body>
-    <div id="pdf-container">
-      <iframe id="pdf-viewer" src="" frameborder="0"></iframe>
-    </div>
-
-    <script>
-      // Get the contents of the PDF file stored in local storage
-      const pdfFile = "../Latest/CResume_1.1.pdf";
-
-      // Create a Blob object from the PDF contents
-      const blob = new Blob([pdfFile], { type: "application/pdf" });
-
-      // Create an object URL from the Blob object
-      const objectURL = URL.createObjectURL(blob);
-
-      // Set the source of the PDF viewer to the object URL
-      document.getElementById("pdf-viewer").src = objectURL;
-    </script>
-  </body>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="resource/style.css">
+    <title>Mushphyur Rahman</title>
+</head>
+<body>
+    
+</body>
 </html>

@@ -6,8 +6,8 @@
     padding: 0px;
 }
 
-#overlay:{
+#overlay{
     background-color: black;
     z-index: 10;
-    height: 100vb;
+    height: 100vbh
 }
